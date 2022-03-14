@@ -21,8 +21,6 @@ public:
             while (*it != key) {
                 it++;
             }
-
-            // update queue: update it to most recent used value
             dq.erase(it);
             dq.push_front(key);
 
